@@ -1,0 +1,24 @@
+.breadcrumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a:hover {
+    color: white;
+    font-size: 20px;
+    border: 1px solid hsla(88, 100%, 25%, 1);
+    border-radius: 10px;
+    background-color: hsla(88, 100%, 25%, 1);
+  }
+  a:active {
+    background-color: hsla(88, 90%, 20%, 1);
+  }
+  ul li {
+    margin: 5px;
+  }
+  ul {
+    margin-bottom: 10px;
+  }
+  ul .separateur::after {
+    content: "  /";
+  }
